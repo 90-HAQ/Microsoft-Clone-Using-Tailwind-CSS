@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="images/microsoft_favicon.ico">
+    <title>Microsoft - Official Home Page</title>
+</head>
+<body>
+    <!-- Max Width Container -->
+    <div class="container mx-auto"> 
+
+        <!-- Navbar -->
+        <div class="navbar flex justify-between items-center p-4">
+            <div class="flex justify-center items-center md:order-2">
+                <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+                    <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                    <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                    <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                </div>
+                <div class="search md:hidden w-4 mr-6"><img src="images/search.svg" alt=""></div>
+            </div>
+            <div class="logo text-center flex md:order-1">
+                <div class="p-4 flex justify-center"> <img class="w-44" src="images/microsoft.svg" alt=""></div>
+                <div class="features absolute w-fit md:static md:w-auto inset-0 bg-gray-300 md:bg-white md:flex md:mx-4 md:space-x-6 -translate-x-96 md:translate-x-0 md:items-center">
+                    <div class="fitem hover:underline hover:decoration-4 hover:underline-offset-8 hover:cursor-pointer">Microsoft 365</div>
+                    <div class="fitem hover:underline hover:decoration-4 hover:underline-offset-8 hover:cursor-pointer">Office</div> 
+                    <div class="fitem hover:underline hover:decoration-4 hover:underline-offset-8 hover:cursor-pointer">Windows</div>
+                    <div class="fitem hover:underline hover:decoration-4 hover:underline-offset-8 hover:cursor-pointer">Surface</div>
+                    <div class="fitem hover:underline hover:decoration-4 hover:underline-offset-8 hover:cursor-pointer">Xbox</div>
+                    <div class="fitem hover:underline hover:decoration-4 hover:underline-offset-8 hover:cursor-pointer">Support</div>
+                </div>
+            </div>
+            <div class="cart text-center md:order-3 flex">
+                <div class="search hidden md:block mr-6  hover:underline hover:decoration-4 hover:underline-offset-8 hover:cursor-pointer"> All Microsoft </div>
+                <div class="mx-2 flex  hover:underline hover:decoration-4 hover:underline-offset-8 hover:cursor-pointer">Search
+                    <img class="w-4 ml-3 mr-2" src="images/search.svg" alt="">
+                </div>
+                
+                <div class="flex pt-1"> 
+                    <img class="w-4 h-4 mr-4" src="images/cart icon.svg" alt=""> 
+                    <img class="w-4 h-4 mr-4" src="images/account icon.svg" alt=""> 
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider -->
+        <div class="slider flex flex-col-reverse md:flex-row bg-[#f2f2f2]"> 
+            <div class="left flex flex-col justify-center items-center md:items-baseline py-12 md:ml-32 space-y-5">
+                <h1 class="text-2xl font-medium md:text-4xl mx-5">Surface Laptop 4</h1>
+                <p class="w-3/4 mx-5 text-center md:text-left">The next-generation of games. Your goals. Friends and family. Windows 11 was made to bring you closer to everything you love.</p>
+                <button class="text-white bg-black px-4 py-2 my-6 mx-5 font-bold">Shop Now ></button>
+            </div>
+            <div class="right">
+                <img class="w-[64rem] md:w-[64rem]" src="images/ms.png" alt="">
+            </div>
+        </div>
+
+        <!-- Microsoft Promotion Icons -->
+        <div class="promo space-y-6 flex flex-col md:flex-row md:justify-center">
+            <div class="item flex md:flex-col items-center mx-4 space-x-2 mt-6">
+                <img src="images/ic1.png" alt="">
+                <span class="font-medium md:w-[8rem] md:text-center text-sm my-4">Choose your Microsoft 365</span>
+            </div>
+            <div class="item flex md:flex-col items-center mx-4 space-x-2">
+                <img src="images/ic2.png" alt="">
+                <span class="font-medium md:w-[8rem] md:text-center text-sm my-4">Explore Surface devices</span>
+            </div>
+            <div class="item flex md:flex-col items-center mx-4 space-x-2">
+                <img src="images/ic3.png" alt="">
+                <span class="font-medium md:w-[8rem] md:text-center text-sm my-4">Buy Xbox games</span>
+            </div>
+            <div class="item flex md:flex-col items-center mx-4 space-x-2">
+                <img src="images/ic1.png" alt="">
+                <span class="font-medium md:w-[8rem] md:text-center text-sm my-4">Get Windows-11</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
