@@ -5,15 +5,19 @@
 
 <br><br>
 
-<h1 align="center">Facebook Login Page Using Tailwind Css</h1>
+<h1 align="center">Responsive Microsoft Official Home Page Using Tailwind Css</h1>
 <h3 align="center">Go through the readme file for the installation of the setup</h3>
 
 <br><br>
 
 ## Screenshot
 
-<img src="https://github.com/90-HAQ/facebook_login_page_tailwind/blob/master/facebook_login_page.png">
-
+<div align="center"><img align="center" src="https://github.com/90-HAQ/Microsoft-Clone-Using-Tailwind-CSS/blob/master/images/ms_screen%201.png"></div>
+<br>
+<div align="center"><img  src="https://github.com/90-HAQ/Microsoft-Clone-Using-Tailwind-CSS/blob/master/images/ms_screen%202.png"></div>
+<br>
+<div align="center"><img align="center" src="https://github.com/90-HAQ/Microsoft-Clone-Using-Tailwind-CSS/blob/master/images/ms_screen%203.png"></div>
+<br>
 
 ## Requirements
 
